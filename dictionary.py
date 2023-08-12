@@ -1,8 +1,8 @@
 cedula_de_identidad = {
-    "nombres": ["Cesar", "Andres"],
-    "apellido": ["Baudi", "Ventura"],
+    "nombres": ["Pedro", "Alimaña"],
+    "apellido": ["Juarez", "Dominguez"],
     "documento": {
-        "numero": 28000000,
+        "numero": 123445900,
         "tipo": "V"
     },
     "fecha_expedicion": "1/12/1999"

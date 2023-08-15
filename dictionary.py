@@ -1,29 +1,25 @@
-cedula_de_identidad = {
-    "nombres": ["Pedro", "Alimaña"],
-    "apellido": ["Juarez", "Dominguez"],
-    "documento": {
-        "numero": 123445900,
-        "tipo": "V"
-    },
-    "fecha_expedicion": "1/12/1999"
+market_item = {
+    "name": "huevo",
+    "price": 3,
+    "quantity": 15
 }
 
-# cedula_de_identidad["fecha_expedicion"] = "11/08/2013"
+print(market_item)
 
-# print(cedula_de_identidad)
+market_item["name"] = "mantequilla"
+print(market_item)
 
-# cedula_de_identidad["documento"]["estado_civil"] = "Soltero"
+market_item["is_avalible"] = True
+print(market_item)
 
-# print(cedula_de_identidad)
+del market_item["is_avalible"]
+print(market_item)
 
-# del cedula_de_identidad["fecha_expedicion"]
+print(market_item.keys())
+print(market_item.values())
+print(market_item.items())
 
-# print(cedula_de_identidad)
 
-# print(cedula_de_identidad.keys())
-# print(cedula_de_identidad.values())
-# print(cedula_de_identidad.items())
-
-for key, value in cedula_de_identidad.items():
-    if key == "nombres" and value[0] == "Cesar":
-        print('Hola')
+for key, value in market_item.items():
+    print(key)
+    print(value)

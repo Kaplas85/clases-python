@@ -1,18 +1,7 @@
-# Declarando variables
-mi_variable = "Hola Mundo"
-nombre = "Cesar"
+nombre = input("Escribe tu nombre: ")
+edad = input("Escribe tu edad: ")
 
-# Constantes
-CEDULA = "0.000.000"
+# nombre = nombre + "X"
 
-# Variables
-
-text = "5"  # str -> string -> cadena
-number = 5  # int -> integer -> entero
-decimal = 5.2  # float -> floating -> flotante -> numeros décimales
-boolean_true = True  # 1  # bool -> boolean -> booleano
-boolean_false = False  # 0  # bool -> boolean -> booleano
-
-# Para conocer el tipo de valor de una variable
-# type(objeto)
-type(number)
+salida = f"Hola, soy {nombre} y tengo {edad} años"
+print(salida)
